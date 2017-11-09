@@ -160,3 +160,13 @@ form {
 	display: block;
 	clear: both;
 }
+
+@media screen and (max-width: 768px) {
+	aside {
+		float: none;
+		clear: both;
+		width: 626px;
+		padding: 10px;
+		margin: 5px;
+	}
+}
