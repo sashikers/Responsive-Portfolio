@@ -169,4 +169,48 @@ form {
 		padding: 10px;
 		margin: 5px;
 	}
+	.logo {
+		margin: 10px 10px 10px 100px;
+	}
+	h2 {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 640px){
+	header {
+		position: static;
+		float:none;
+	}
+	aside {
+		width: 500px;
+		float: none;
+		clear: both;
+	}
+	article {
+		width: 500px;
+	}
+	img {
+		width: 490px;
+		height: 490px;
+	}
+	nav a {
+		float: none;
+		clear: both;
+		text-align: center;
+	}
+	h1 {
+		float: none;
+		text-align: center;
+	}
+	nav {
+		float: none;
+	}
+	.portf {
+		width: 400px;
+		height: 400px;
+	}
+	.logo {
+		margin: 10px 10px 10px 60px;
+	}
 }
