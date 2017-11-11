@@ -6,6 +6,10 @@ html, body {
 	min-height: 100%;
 	/*background-color: blue;*/
 }
+img {
+	width: 250px;
+	height: 250px;
+}
 body {
 	font-size: 100%;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -191,8 +195,8 @@ form {
 		width: 500px;
 	}
 	img {
-		width: 490px;
-		height: 490px;
+		width: 430px;
+		height: auto;
 	}
 	nav a {
 		float: none;
@@ -207,8 +211,12 @@ form {
 		float: none;
 	}
 	.portf {
-		width: 400px;
-		height: 400px;
+		width: 410px;
+		height: auto;
+		/*text-align: center;*/
+	}
+	.portftitle {
+		width: 410px;
 	}
 	.logo {
 		margin: 10px 10px 10px 60px;
