@@ -223,4 +223,7 @@ form {
 	.logo {
 		margin: 10px 10px 10px 88px;
 	}
+	input {
+		width: 550px;
+	}
 }
